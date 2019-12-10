@@ -56,9 +56,9 @@ public class homework {
 		
 		
 		
-		driver.findElement(By.id("account")).sendKeys("abhhjw");
+		driver.findElement(By.id("account")).sendKeys("abmmjw");
 		driver.findElement(By.id("description")).sendKeys("checking");
-		driver.findElement(By.id("balance")).sendKeys("$28800.00");
+		driver.findElement(By.id("balance")).sendKeys("$2880.00");
 		Thread.sleep(5, 000);
 
 		// *[contains(@name, 'due_month')]
@@ -69,7 +69,7 @@ public class homework {
 	//	Assert.assertTrue("Account Created Successfully", PAGE_TITLE_ELEMENT.isDisplayed());
 Thread.sleep(300);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("scroll(0,11000)");
+		js.executeScript("scroll(0,15000)");
 		////td[text()='abhmdw']/parent::tr//descendant::i[2]
 
 	}
