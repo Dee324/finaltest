@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 public class homework {
 
 	@Test
-
 	public void homework() throws InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
@@ -56,9 +55,9 @@ public class homework {
 		
 		
 		
-		driver.findElement(By.id("account")).sendKeys("abmmjw");
+		driver.findElement(By.id("account")).sendKeys("abw");
 		driver.findElement(By.id("description")).sendKeys("checking");
-		driver.findElement(By.id("balance")).sendKeys("$2880.00");
+		driver.findElement(By.id("balance")).sendKeys("$280.00");
 		Thread.sleep(5, 000);
 
 		// *[contains(@name, 'due_month')]
